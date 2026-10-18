@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-    /* 課題0201: ここに printf を使って画面出力を行うコードを記述してください */
-    
+    /* 課題0301: 入力されたintのデータを+100した結果を，int(桁数指定なし)として表示するプログラムを書け． */
+    int i;
+    int result;
+
+    scanf("%d",&i);         // キーボードからiに入力
+    ? = ? ;                 // iに100を加えて、resultで受ける
+    printf("%d", result);   //resultを表示
     return 0;
 }
